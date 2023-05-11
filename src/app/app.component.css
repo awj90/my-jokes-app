@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr;
+  row-gap: 2vh;
+  position: relative;
+  margin-top: 10%;
+}
+
+.small {
+  margin-right: 3vw;
+  height: 9vh;
+  width: auto;
+}
+
+.joke {
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1em;
+  color: purple;
+}
+
+.loading {
+  position: relative;
+  margin-left: 50%;
+  margin-right: 50%;
+}
